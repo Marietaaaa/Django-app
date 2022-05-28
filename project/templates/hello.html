@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 align='center'style="border:4px solid Tomato;">Listing methods in Python</h1>
+<h3 align='center'>Python has many useful listing methods that make it really easy to work with lists.</h3>
+<h4 align='center'>Here are some commonly used list methods:</h4>
+
+
+{% for example in methods %}
+    <p align='center'>{{example}}</p>
+{% endfor %}
+
+
+{% endblock body %}
